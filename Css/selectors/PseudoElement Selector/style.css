@@ -1,0 +1,15 @@
+p::first-letter
+{
+    background-color: orange;
+    font-size: 30px;
+}
+
+li:nth-child(odd)
+{
+    background-color: chartreuse;
+}
+
+li:nth-child(even)
+{
+    background-color:rosybrown;
+}
