@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js" defer>
+
+        </script>
+    </head>
+
+    <body>
+        <form onsubmit="return formValidate()">
+            <input type="text" id="nameTF">
+            <span id="nameERR"></span><br><br>
+
+            <input type="number" id="ageTF" value="0">
+            <span id="ageERR"></span><br><br>
+
+            <input type="text" id="emailTF">
+            <span id="emailERR"></span><br><br>
+
+            <input type="radio" id="maleRB" name="gender">male
+            <input type="radio" id="femaleRB" name="gender">female
+            <span id="genderERR"></span><br><br>
+
+            <input type="checkbox" id="cricketCMB" name="sports">cricket
+            <input type="checkbox" id="footballCMB" name="sports">football
+            <span id="sportsERR"></span><br><br>
+
+            <select id="country">
+                <option value="">select an option</option>
+                <option value="USA">USA</option>
+                <option value="BNG">BNG</option>
+            </select>
+            <span id="countryERR"></span><br><br>
+
+            <input type="file" id="fileUpload">
+            <span id="fileERR"></span><br><br>
+
+            <input type="submit" id="submit" value="submit">
+            
+        </form>
+    </body>
+</html>
